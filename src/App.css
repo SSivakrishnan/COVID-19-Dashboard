@@ -1,0 +1,65 @@
+
+.headline{
+  text-align: center;
+    font-family: fantasy;
+    padding-bottom: 20px;
+    border-bottom: solid grey 2px;
+}
+
+.cts canvas{
+  width: 50% !important;
+  height: 400px !important;
+float: left;
+border-radius: 20px;
+}
+.cts canvas:hover{
+  width: 50% !important;
+  height: 500px !important;
+
+  box-shadow: -3px 5px 15px grey, 15px 15px 15px rgb(0 0 0 / 10%);
+}
+.statewise canvas{
+  width: 50% !important;
+  height: 400px !important;
+float: right;
+border-radius: 20px;
+}
+.statewise canvas:hover{
+  width: 50% !important;
+  height: 500px !important;
+  box-shadow: -3px 5px 15px grey, 15px 15px 15px rgb(0 0 0 / 10%);
+}
+.tested canvas{
+ 
+  margin: auto !important;
+  width: 90% !important;
+  height: auto !important;
+  border-radius: 20px;
+}
+.tested canvas:hover{
+  box-shadow: -3px 5px 15px grey, 15px 15px 15px rgb(0 0 0 / 10%);
+}
+
+.sort{
+  display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: white;
+}
+.sort:hover{
+  background-color: black;
+  color: white;
+}
+
+.filters{
+  display: inline;
+  margin-left: 14%;
+  background-color: WHITE;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 3px;
+}
+.filters label{
+  font-family: cursive
+}
